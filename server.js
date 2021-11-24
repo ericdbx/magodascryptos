@@ -108,6 +108,6 @@ app.use(function(req, res, next) {
 
   
  
-  app.listen(process.env.port || 8080);
+  app.listen(process.env.port || 3000);
 
- console.log('Running at Port 8080');
+ console.log('Running at Port 3000');
